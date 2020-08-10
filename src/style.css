@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #017e01;
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.my {
+    margin: 30px 0;
+}
+
+.row {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row div {
+    width: 102px;
+    height: 127px;
+}
+
+.row div.place {
+    border: solid 1px #fff;
+    border-radius: 5px;
+}
+
+.yamafuda {
+    position: relative;
+}
+
+.yamafuda div {
+    position: absolute;
+    top: 0;
+}
+
+.kumifuda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    position: relative;
+}
+
+.kumifuda div {
+    position: absolute;
+    top: 0;
+}
+
+.bafuda div .card {
+    position: relative;
+    top: -95px;
+}
